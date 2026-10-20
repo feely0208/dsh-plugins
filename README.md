@@ -1,7 +1,7 @@
 # 深鲸 DSH 插件索引 · DeepWhale DSH Plugins
 
 深鲸出品的 DSH 插件总览 —— 装在任意支持 DSH 的载体上，**不绑定桌面端**。每个插件各管一件事，按需安装。
-共 **50** 个插件，全部免费开源（MIT）。
+共 **51** 个插件，全部免费开源（MIT）。
 
 - 插件市场（可搜索 / 分类 / 一键装）：https://deepwhale.org.cn/plugins.html
 - 官网：https://deepwhale.org.cn · 桌面端：https://github.com/feely0208/deepwhale-desktop
@@ -43,6 +43,7 @@
 | [dsh-minor-guard](https://github.com/feely0208/dsh-minor-guard) | `@deepwhale-cn/dsh-minor-guard` | 查不满 14 周岁个人信息有没有监护人同意、专门规则、年龄门槛 —— 个保法 31 条有硬要求 |
 | [dsh-phishing-guard](https://github.com/feely0208/dsh-phishing-guard) | `@deepwhale-cn/dsh-phishing-guard` | agent 读到的内容里，有没有人在给它下命令 |
 | [dsh-pipia](https://github.com/feely0208/dsh-pipia) | `@deepwhale-cn/dsh-pipia` | 查是否按个保法 55 条做了影响评估、按 56 条留存三年 —— 敏感信息处理必须事前评估 |
+| [dsh-plugin-updater](https://github.com/feely0208/dsh-plugin-updater) | `@deepwhale-cn/dsh-plugin-updater` | 检查第三方 DSH 插件的新版本，并按精确版本一键更新（绕过 pnpm 发布观察期，不用卸载重装） |
 | [dsh-release-selfcheck](https://github.com/feely0208/dsh-release-selfcheck) | `@deepwhale-cn/dsh-release-selfcheck` | 软件发布前的自检：产物清单比对（防止把无关文件一起上传）、版本一致性、平台与架构正确性、上传内容过滤、上线前逐链接 404 检查、发布纪律与现场清理。 |
 | [dsh-sbom](https://github.com/feely0208/dsh-sbom) | `@deepwhale-cn/dsh-sbom` | 你的产物里到底有谁，清单说了算 |
 | [dsh-secret-scan](https://github.com/feely0208/dsh-secret-scan) | `@deepwhale-cn/dsh-secret-scan` | 密钥与敏感信息扫描：提交前、发布前把代码里的 API Key、令牌、私钥、凭据文件、内部域名找出来 —— 输出默认打码，可作为 pre-commit / CI 卡口。 |
@@ -63,7 +64,7 @@
 - **数据与凭据**：data-classify / data-rights / data-scan / secret-scan / key-rotate / dep-audit / sbom / pipia …
 - **供应链**：ci-guard / release-selfcheck / license-guard …
 - **权限与应急**：least-privilege / incident-package / consent-guard / phishing-guard / minor-guard / alert-relay …
-- **能力类**：design-line（设计工序）/ shell-canvas（画布）/ doc-formatter（公文排版）/ session-artifacts / badge（署名徽章）…
+- **能力类**：design-line（设计工序）/ shell-canvas（画布）/ doc-formatter（公文排版）/ session-artifacts / badge（署名徽章）/ plugin-updater（插件更新）…
 
 ## License
 
