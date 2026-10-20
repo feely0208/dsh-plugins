@@ -438,8 +438,8 @@
         "en": "cn-pipl-check"
       },
       "description": {
-        "zh": "个人信息保护合规：核对「隐私政策里承诺的」与「代码里真做的」是否一致 —— 权限、第三方 SDK、用户权利入口、敏感信息单独同意、数据跨境与留存。",
-        "en": "个人信息保护合规：核对「隐私政策里承诺的」与「代码里真做的」是否一致 —— 权限、第三方 SDK、用户权利入口、敏感信息单独同意、数据跨境与留存。"
+        "zh": "个人信息保护合规：核对「隐私政策里承诺的」与「代码里真做的」是否一致 —— 权限、第三方 SDK、用��权利入口、敏感信息单独同意、数据跨境与留存。",
+        "en": "个人信息保护合规：核对「隐私政策里承诺的」与「代码里真做的」是否一致 —— 权限、第三方 SDK、用��权利入口、敏感信息单独同意、数据跨境与留存。"
       },
       "author": "深鲸智能科技（温州）有限公司",
       "homepage": "https://deepwhale.org.cn/plugins.html",
@@ -1095,8 +1095,8 @@
       "homepage": "https://deepwhale.org.cn/plugins.html",
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1792473001,
+          "version": "0.1.1",
+          "publishTimestamp": 1792473881,
           "source": {
             "type": "npm"
           },
@@ -1121,8 +1121,8 @@
       "homepage": "https://deepwhale.org.cn/plugins.html",
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1792472917,
+          "version": "0.1.1",
+          "publishTimestamp": 1792473814,
           "source": {
             "type": "npm"
           },
@@ -1147,8 +1147,8 @@
       "homepage": "https://deepwhale.org.cn/plugins.html",
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1792472868,
+          "version": "0.1.1",
+          "publishTimestamp": 1792473821,
           "source": {
             "type": "npm"
           },
@@ -1173,8 +1173,8 @@
       "homepage": "https://deepwhale.org.cn/plugins.html",
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1792472937,
+          "version": "0.1.1",
+          "publishTimestamp": 1792473829,
           "source": {
             "type": "npm"
           },
