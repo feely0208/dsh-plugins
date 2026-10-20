@@ -1,7 +1,7 @@
 # 深鲸 DSH 插件索引 · DeepWhale DSH Plugins
 
 深鲸出品的 DSH 插件总览 —— 装在任意支持 DSH 的载体上，**不绑定桌面端**。每个插件各管一件事，按需安装。
-共 **49** 个插件，全部免费开源（MIT）。
+共 **50** 个插件，全部免费开源（MIT）。
 
 - 插件市场（可搜索 / 分类 / 一键装）：https://deepwhale.org.cn/plugins.html
 - 官网：https://deepwhale.org.cn · 桌面端：https://github.com/feely0208/deepwhale-desktop
@@ -15,6 +15,7 @@
 | [dsh-ai-output-trust](https://github.com/feely0208/dsh-ai-output-trust) | `@deepwhale-cn/dsh-ai-output-trust` | 检查代码有没有直接执行 AI 输出 —— eval/exec/SQL/文件路径，这是 agent 里风险很高的一类 |
 | [dsh-alert-relay](https://github.com/feely0208/dsh-alert-relay) | `@deepwhale-cn/dsh-alert-relay` | 检查告警链路：有没有告警、发到哪、有没有把敏感信息一起发出去 |
 | [dsh-algorithm-filing](https://github.com/feely0208/dsh-algorithm-filing) | `@deepwhale-cn/dsh-algorithm-filing` | 查算法推荐服务有没有备案、有没有告知、有没有【关闭选项】—— 第 17 条是硬要求 |
+| [dsh-badge](https://github.com/feely0208/dsh-badge) | `@deepwhale-cn/dsh-badge` | 给用深鲸桌面产出的文档 / PR 加「powered by dwh」署名徽章（skill，装上即可用；121×20、胶囊圆角） |
 | [dsh-bundle-cn-skills](https://github.com/feely0208/dsh-bundle-cn-skills) | `@deepwhale-cn/dsh-bundle-cn-skills` | DSH 中文合规与工程技能集（7 个技能）的组合包。本文件同时作为仓库根清单，供插件市场识别包名并核对 npm 包。 |
 | [dsh-ci-guard](https://github.com/feely0208/dsh-ci-guard) | `@deepwhale-cn/dsh-ci-guard` | 扫 GitHub Actions 工作流，找出可被利用的配置 —— 供应链攻击的主要入口 |
 | [dsh-cn-ai-labeling](https://github.com/feely0208/dsh-cn-ai-labeling) | `@deepwhale-cn/dsh-cn-ai-labeling` | AI 生成合成内容标识合规自检：对照《人工智能生成合成内容标识办法》与强制性国标 GB 45438—2025，逐条核对显式/隐式标识落实情况，并给出防误伤边界。 |
@@ -62,7 +63,7 @@
 - **数据与凭据**：data-classify / data-rights / data-scan / secret-scan / key-rotate / dep-audit / sbom / pipia …
 - **供应链**：ci-guard / release-selfcheck / license-guard …
 - **权限与应急**：least-privilege / incident-package / consent-guard / phishing-guard / minor-guard / alert-relay …
-- **能力类**：design-line（设计工序）/ shell-canvas（画布）/ doc-formatter（公文排版）/ session-artifacts …
+- **能力类**：design-line（设计工序）/ shell-canvas（画布）/ doc-formatter（公文排版）/ session-artifacts / badge（署名徽章）…
 
 ## License
 
