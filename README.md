@@ -51,6 +51,16 @@
 | [dsh-shell-canvas](https://github.com/feely0208/dsh-shell-canvas) | `@deepwhale-cn/dsh-shell-canvas` | 把一段文字变成能发的视频。贴一段稿子、选几张素材，点一下出横竖双版成片；稿子、素材、成片都在你自己的电脑上，不上传、不联网。免费版即可用，授权后去水印。 |
 | [dsh-tool-vet](https://github.com/feely0208/dsh-tool-vet) | `@deepwhale-cn/dsh-tool-vet` | 装第三方插件之前，先看它会动什么 |
 
+## 配套：MCP 插件市场（给任意 AI 助手用）
+
+除了官网插件市场，我们还把它做成了 **MCP 服务器** —— Claude / Cursor 等任意 MCP 客户端可以直接搜索、查看、校验这些插件：
+
+```sh
+npx -y @deepwhale-cn/mcp-dsh-plugins
+```
+
+仓库：https://github.com/feely0208/mcp-dsh-plugins · npm：`@deepwhale-cn/mcp-dsh-plugins`
+
 ## 安装与使用
 
 1. 安装 DSH（随深鲸桌面，或 `npx @deepseek-ai/dsh`）；
