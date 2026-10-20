@@ -1,7 +1,7 @@
 # 深鲸 DSH 插件索引 · DeepWhale DSH Plugins
 
 深鲸出品的 DSH 插件总览 —— 装在任意支持 DSH 的载体上，**不绑定桌面端**。每个插件各管一件事，按需安装。
-共 **37** 个插件，全部免费开源（MIT）。
+共 **49** 个插件，全部免费开源（MIT）。
 
 - 插件市场（可搜索 / 分类 / 一键装）：https://deepwhale.org.cn/plugins.html
 - 官网：https://deepwhale.org.cn · 桌面端：https://github.com/feely0208/deepwhale-desktop
