@@ -158,8 +158,8 @@
       "homepage": "https://deepwhale.org.cn/plugins.html",
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1792498525,
+          "version": "0.1.1",
+          "publishTimestamp": 1792499655,
           "source": {
             "type": "npm"
           },
