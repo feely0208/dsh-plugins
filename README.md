@@ -79,3 +79,7 @@ npx -y @deepwhale-cn/mcp-dsh-plugins
 ## License
 
 MIT © 温州深鲸智能科技有限公司
+
+---
+
+<p align="right"><a href="https://deepwhale.org.cn"><img src="https://www.deepwhale.org.cn/images/badge/deepwhale-badge.png" alt="powered by dwh" height="20"></a></p>
