@@ -1,7 +1,7 @@
 # 深鲸 DSH 插件索引 · DeepWhale DSH Plugins
 
 深鲸出品的 DSH 插件总览 —— 装在任意支持 DSH 的载体上，**不绑定桌面端**。每个插件各管一件事，按需安装。
-共 **54** 个插件，全部免费开源（MIT）。
+共 **55** 个插件，全部免费开源（MIT）。
 
 - 插件市场（可搜索 / 分类 / 一键装）：https://deepwhale.org.cn/plugins.html
 - 官网：https://deepwhale.org.cn · 桌面端：https://github.com/feely0208/deepwhale-desktop
@@ -52,6 +52,7 @@
 | [dsh-secret-scan](https://github.com/feely0208/dsh-secret-scan) | `@deepwhale-cn/dsh-secret-scan` | 密钥与敏感信息扫描：提交前、发布前把代码里的 API Key、令牌、私钥、凭据文件、内部域名找出来 —— 输出默认打码，可作为 pre-commit / CI 卡口。 |
 | [dsh-session-artifacts](https://github.com/feely0208/dsh-session-artifacts) | `@deepwhale-cn/dsh-session-artifacts` | 会话产物归拢与命名：每个会话一个专属文件夹，收尾按实际内容改名并刷新索引 —— 解决「产物散落满目录」和「过段时间记不清是什么」。附三个不依赖 DSH 的纯 bash 脚本。 |
 | [dsh-shell-canvas](https://github.com/feely0208/dsh-shell-canvas) | `@deepwhale-cn/dsh-shell-canvas` | 把一段文字变成能发的视频。贴一段稿子、选几张素材，点一下出横竖双版成片；稿子、素材、成片都在你自己的电脑上，不上传、不联网。免费版即可用，授权后去水印。 |
+| [dsh-teardown-studio](https://github.com/feely0208/dsh-teardown-studio) | `@deepwhale-cn/dsh-teardown-studio` | 拆解视频工作室：上传预先拆分好的 3D 模型，本地渲染拆解视频。 |
 | [dsh-tool-vet](https://github.com/feely0208/dsh-tool-vet) | `@deepwhale-cn/dsh-tool-vet` | 装第三方插件之前，先看它会动什么 |
 
 ## 配套：MCP 插件市场（给任意 AI 助手用）
