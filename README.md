@@ -1,7 +1,7 @@
 # 深鲸 DSH 插件索引 · DeepWhale DSH Plugins
 
 深鲸出品的 DSH 插件总览 —— 装在任意支持 DSH 的载体上，**不绑定桌面端**。每个插件各管一件事，按需安装。
-共 **51** 个插件，全部免费开源（MIT）。
+共 **54** 个插件，全部免费开源（MIT）。
 
 - 插件市场（可搜索 / 分类 / 一键装）：https://deepwhale.org.cn/plugins.html
 - 官网：https://deepwhale.org.cn · 桌面端：https://github.com/feely0208/deepwhale-desktop
@@ -15,6 +15,9 @@
 | [dsh-ai-output-trust](https://github.com/feely0208/dsh-ai-output-trust) | `@deepwhale-cn/dsh-ai-output-trust` | 检查代码有没有直接执行 AI 输出 —— eval/exec/SQL/文件路径，这是 agent 里风险很高的一类 |
 | [dsh-alert-relay](https://github.com/feely0208/dsh-alert-relay) | `@deepwhale-cn/dsh-alert-relay` | 检查告警链路：有没有告警、发到哪、有没有把敏感信息一起发出去 |
 | [dsh-algorithm-filing](https://github.com/feely0208/dsh-algorithm-filing) | `@deepwhale-cn/dsh-algorithm-filing` | 查算法推荐服务有没有备案、有没有告知、有没有【关闭选项】—— 第 17 条是硬要求 |
+| [dsh-approval-ledger](https://github.com/feely0208/dsh-approval-ledger) | `@deepwhale-cn/dsh-approval-ledger` | 审批台账：记录每次需要审批的 agent 操作（风险/决策/结果），带企业审计面板与导出。 |
+| [dsh-decision-review](https://github.com/feely0208/dsh-decision-review) | `@deepwhale-cn/dsh-decision-review` | 决策复盘：把审批台账整理成复盘报告——关键决策、被拒原因、待复审项。 |
+| [dsh-enterprise-suite](https://github.com/feely0208/dsh-enterprise-suite) | `@deepwhale-cn/dsh-enterprise-suite` | 企业审计套件（商业授权）：审批台账+决策复盘+审计报告+定时复盘，14 天试用。 |
 | [dsh-badge](https://github.com/feely0208/dsh-badge) | `@deepwhale-cn/dsh-badge` | 给用深鲸桌面产出的文档 / PR 加「powered by dwh」署名徽章（skill，装上即可用；121×20、胶囊圆角） |
 | [dsh-bundle-cn-skills](https://github.com/feely0208/dsh-bundle-cn-skills) | `@deepwhale-cn/dsh-bundle-cn-skills` | DSH 中文合规与工程技能集（7 个技能）的组合包。本文件同时作为仓库根清单，供插件市场识别包名并核对 npm 包。 |
 | [dsh-ci-guard](https://github.com/feely0208/dsh-ci-guard) | `@deepwhale-cn/dsh-ci-guard` | 扫 GitHub Actions 工作流，找出可被利用的配置 —— 供应链攻击的主要入口 |
